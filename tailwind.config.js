@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "c-blue": "#03178c",
         "c-white": "#e9ecf2",
+        "c-lightBlue": "#35428b",
       },
       fontFamily: {
         KumbhSans: ["Kumbh Sans", "sans-serif"],
