@@ -23,7 +23,7 @@ export default function Body() {
     const newInput = {
       id: uuidv4(),
       todo: event.target.todo.value,
-      time: event.target.time.value,
+      time: formatTime(event.target.time.value),
     };
     setTask([...task, newInput]);
     setIsFormVisible(false);
@@ -35,6 +35,15 @@ export default function Body() {
   const handleDelete = (id) => {
     setTask(task.filter((obj) => obj.id !== id));
   };
+
+  // function to format time gotten from input
+  function formatTime(time) {
+    const [hour, minute] = time.split(":");
+    const suffix = hour < 12 ? "AM" : "PM";
+    const formattedHour = hour % 12 === 0 ? "12" : hour % 12;
+    return `${formattedHour}:${minute} ${suffix}`;
+  }
+
 
   //local storage
   useEffect(() => {
