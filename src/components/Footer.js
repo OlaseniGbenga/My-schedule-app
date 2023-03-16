@@ -7,7 +7,7 @@ import { faFacebook, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-
 
 export default function Footer() {
   return (
-    <div className=" border-c-blue py-10 px-16 bg-c-blue  flex flex-col items-center gap-y-4">
+    <div className="mt-auto border-c-blue py-10 px-16 bg-c-blue  flex flex-col items-center gap-y-4">
       <Link to="/">
         <FontAwesomeIcon
           icon={faHourglassHalf}

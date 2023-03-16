@@ -9,7 +9,7 @@ import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (
-    <div className="bg-c-blue h-screen text-c-white">
+    <div className="bg-c-blue h-screen flex flex-col text-c-white">
       <Router>
         <Navbar />
         <Routes>

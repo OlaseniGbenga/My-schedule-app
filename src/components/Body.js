@@ -64,7 +64,7 @@ export default function Body() {
 
   
   return (
-    <div className="min-h-screen h-1/2 font-Roboto flex flex-col gap-y-4  items-center">
+    <div className="  font-Roboto flex flex-col gap-y-4  items-center">
       <h3 className="text-xl">To-dos</h3>
       {/* How a todo should look like */}
 
