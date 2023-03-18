@@ -6,7 +6,7 @@ export default function About() {
       <p>Welcome to our  todo list app!
 Our app was created to help you manage your tasks and stay organized. With a simple and user-friendly interface, you can easily add, edit, and delete tasks on your to-do list.
 Our app features a form where you can add a new task by typing in the task name and setting a specific time to begin it. You can view all of your tasks on the main page, where you can easily see the task name and the time you set to start it.
-In a addition, our app features a delete button for each task, so you can easily remove any completed or unnecessary tasks.
+In addition, our app features a delete button for each task, so you can easily remove any completed or unnecessary tasks.
 We also included a local storage feature to save your tasks, so you can always access your to-do list even if you close the app.
 Our goal was to create an app that is both functional and visually appealing. 
 
